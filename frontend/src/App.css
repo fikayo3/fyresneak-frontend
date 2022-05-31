@@ -1,0 +1,25 @@
+.paystack-button {
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  background-color: #bfbfbf;
+  font-weight: bold;
+  color: #e0eafc;
+  border: none;
+  border-radius: 5px;
+  width: 63%;
+  height: 3.2em;
+}
+
+.paystack-button:hover {
+  background: #AA076B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.paystack-button:focus {
+  outline: none;
+}
